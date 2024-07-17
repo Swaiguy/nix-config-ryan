@@ -38,17 +38,17 @@
       pull.rebase = true;
 
       # replace https with ssh
-      url = {
-        "ssh://git@github.com/ryan4yin" = {
-          insteadOf = "https://github.com/ryan4yin";
-        };
+      ##url = {
+       ## "ssh://git@github.com/ryan4yin" = {
+       ##   insteadOf = "https://github.com/ryan4yin";
+        ##};
         # "ssh://git@gitlab.com/" = {
         #   insteadOf = "https://gitlab.com/";
         # };
         # "ssh://git@bitbucket.com/" = {
         #   insteadOf = "https://bitbucket.com/";
         # };
-      };
+      ##};
     };
 
     # signing = {

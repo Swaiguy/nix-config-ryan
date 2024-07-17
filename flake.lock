@@ -35,11 +35,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1707830867,
-        "narHash": "sha256-PAdwm5QqdlwIqGrfzzvzZubM+FXtilekQ/FA0cI49/o=",
+        "lastModified": 1720546205,
+        "narHash": "sha256-boCXsjYVxDviyzoEyAk624600f3ZBo/DKtUdvMTpbGY=",
         "owner": "ryantm",
         "repo": "agenix",
-        "rev": "8cb01a0e717311680e0cbca06a76cbceba6f3ed6",
+        "rev": "de96bd907d5fbc3b14fc33ad37d1b9a3cb15edc6",
         "type": "github"
       },
       "original": {
@@ -841,7 +841,7 @@
     "mysecrets": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-habCL1ojO0F/JfzFtkkjYOEtWGxusdZ0Ib86Z1qBa7o=",
+        "narHash": "sha256-p5l6soaDMs4vKg3qhv5Y+wV7C5Yj10SWMVSNWJSXtag=",
         "type": "file",
         "url": "https://github.com/Swaiguy/nix-secrets.git"
       },

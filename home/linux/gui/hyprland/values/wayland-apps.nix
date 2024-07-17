@@ -88,7 +88,7 @@
           src = builtins.fetchTarball {
             url = "https://update.code.visualstudio.com/latest/linux-x64/insider";
             ## I Updated this value 2024/07/01
-            sha256 = "sha256:0ygs3wznzxkylxd7wn5lyfz3xkkinwgwygp37l906vfqvipp0dqh";
+            sha256 = "sha256:07pl63abp8yngi6bgwm54x1c5xcl5sckfz00gx63bg6gdphz1wcr";
           };
           version = "latest";
         });
