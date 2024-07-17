@@ -841,7 +841,7 @@
     "mysecrets": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-XqW/PN2DfbVLhNidXvLRGwKRWvBobAEoa7QtsVl36g8=",
+        "narHash": "sha256-habCL1ojO0F/JfzFtkkjYOEtWGxusdZ0Ib86Z1qBa7o=",
         "type": "file",
         "url": "https://github.com/Swaiguy/nix-secrets.git"
       },
