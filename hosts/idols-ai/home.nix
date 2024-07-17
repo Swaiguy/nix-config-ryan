@@ -11,14 +11,14 @@
         monitor = "DP-1,highres,auto,1,bitdepth,10";
       };
     };
-    i3.nvidia = true;
+    #i3.nvidia = true;
   };
   modules.editors.emacs = {
     enable = true;
   };
 
   programs.ssh = {
-    enable = true;
+    enable = false; ##Default= true;
     extraConfig = ''
       Host github.com
           IdentityFile ~/.ssh/idols-ai
