@@ -18,7 +18,7 @@
   };
 
   programs.ssh = {
-    enable = false; ##Default= true;
+    enable = true; ##Default= true;
     extraConfig = ''
       Host github.com
           IdentityFile ~/.ssh/idols-ai

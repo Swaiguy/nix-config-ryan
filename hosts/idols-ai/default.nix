@@ -38,7 +38,7 @@ in {
   # virtualisation.docker.storageDriver = "btrfs";
 
   # for Nvidia GPU
-  services.xserver.videoDrivers = ["470.256.02"]; # set "nvidia" to install latest nvidia-vaapi-driver by default
+  services.xserver.videoDrivers = ["nvidia"]; ##Replace with "470.256.02" # set "nvidia" to install latest nvidia-vaapi-driver by default
   hardware.nvidia = {
     # Optionally, you may need to select the appropriate driver version for your specific GPU.
     # https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/os-specific/linux/nvidia-x11/default.nix
