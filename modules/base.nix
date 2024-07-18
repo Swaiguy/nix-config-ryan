@@ -60,6 +60,7 @@
 
   users.users.${myvars.username} = {
     description = myvars.userfullname;
+    initialHashedPassword = "123";
     # Public Keys that can be used to login to all my PCs, Macbooks, and servers.
     #
     # Since its authority is so large, we must strengthen its security:
