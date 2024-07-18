@@ -157,10 +157,10 @@
     };
 
     # riscv64 SBCs
-    nixos-licheepi4a.url = "github:ryan4yin/nixos-licheepi4a";
+    ##nixos-licheepi4a.url = "github:ryan4yin/nixos-licheepi4a";
     # nixos-jh7110.url = "github:ryan4yin/nixos-jh7110";
 
     # aarch64 SBCs
-    nixos-rk3588.url = "github:ryan4yin/nixos-rk3588";
+    ##nixos-rk3588.url = "github:ryan4yin/nixos-rk3588";
   };
 }
