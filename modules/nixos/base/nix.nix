@@ -5,6 +5,7 @@
 }: {
   # to install chrome, you need to enable unfree packages
   nixpkgs.config.allowUnfree = lib.mkForce true;
+  nixpkgs.config.nvidia.acceptLicense = true;
 
   # do garbage collection weekly to keep disk usage low
   nix.gc = {
