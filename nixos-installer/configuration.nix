@@ -6,6 +6,15 @@
      # ./hardware-configuration.nix
     #];
 
+  programs.ssh.startAgent = true;
+
+  services.displayManager.sddm.wayland.enable = true;
+  services.displayManager.sddm.enable = true;
+  services.desktopManager.plasma6.enable = true;
+
+  services.xserver.displayManager.autoLogin.enable = true;
+  services.xserver.displayManager.autoLogin.user = "kry";
+
 
   #################################################################################
   # List packages installed in system profile. To search, run:
@@ -19,12 +28,12 @@
     curl
     nix-output-monitor
   ];
-  ##networking = {
+ 
+  networking = {
     # configures the network interface(include wireless) via `nmcli` & `nmtui`
-    ##defaultGateway = "197.93.11.132";
+    defaultGateway = "197.93.11.132";
 
-  ##};
-
+  };
 
 ##Display Manager
 #services.xserver.enable = true;
