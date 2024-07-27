@@ -6,12 +6,7 @@
      # ./hardware-configuration.nix
     #];
 
-  programs.ssh.startAgent = true;
-  networking.hostName = "Computer";
-  networking.networkmanager.enable = true;
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/vda";
-  boot.loader.grub.useOSProber = true;
+
   #################################################################################
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -30,14 +25,6 @@
 
   ##};
 
-  users.users.kry = {
-    isNormalUser = true;
-    description = "kry";
-    extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      kdePackages.kate
-      ];
-  };
 
 ##Display Manager
 #services.xserver.enable = true;
