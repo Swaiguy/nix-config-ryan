@@ -2,6 +2,7 @@
   description = "NixOS configuration of Ryan Yin";
 
   inputs = {
+    nuenv.url = "github:DeterminateSystems/nuenv";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
     impermanence.url = "github:nix-community/impermanence";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
@@ -16,7 +17,7 @@
       #ai = nixpkgs...
       kry = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = inputs // {myvars.username = "kry";};
+        specialArgs = inputs // {myvars.username = "kry"; myvars.userfullname = "The Individual known As"; };
         modules = [
           {networking.hostName = "Computer";}
 
